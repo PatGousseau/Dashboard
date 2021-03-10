@@ -7,6 +7,12 @@
 .container {
 	margin-top: 10px;
 	background-color: grey;
+	border: 3px solid #aeaeae;
+	border-radius: 4px;
+	padding: 0%;
+	color: white;
+	font-family: Open Sans;
+	font-size: 18px; 
 }
 
 .navbar-text {
@@ -22,17 +28,25 @@
 	width:70px;
 	max-width: 100%;
   	height: auto;
-  	float:left;
+  	margin-left: 60px;
+  	padding-top: 10px;
+}
+
+#logoText {
+	width: 250px;
+	margin-left: 30px;
+	padding-top: 10px;
 }
 
 #brand {
-	background-color: grey;
-	height: 50px;
+	background-color: white;
+	height: 80px;
 }
 
 #images {
-	background-color: grey;
-	height: 210px;
+	background-color: #f9fafb;
+	height: 320px;
+
 
 }
 
@@ -43,16 +57,44 @@
 }
 
 #controlCenter {
-	height: 150px;
+	height: 230px;
+	background-color: #f9fafb;
+
 
 }
 
 #graph {
-	margin-left: 0px;
-	
+	height: 400px;
+	max-width: 100%;
 }
 
 #classification {
-	
+	height: 400px;
 }
 
+#rawdata {
+	max-width: 100%;
+	height: 400px;
+}
+
+.firstrowheader {
+	background-color: #748aa1;
+}
+
+.header {
+	height:40px;
+	text-align: center;
+	padding: 7px
+
+}
+
+#runButton {
+	width: 75%;
+	background-color: #748aa1;
+}
+
+.controlCenterButton {
+	text-align: center;
+	color: white;
+	border-radius: 12px;
+}
