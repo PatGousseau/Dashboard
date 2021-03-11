@@ -1,19 +1,32 @@
-.btn.btn-info {
-	background-color: white;
-	color: #3385ff;
-	margin-left: -102x;
-}
-
 .container {
 	margin-top: 10px;
-	background-color: grey;
-	border: 3px solid #aeaeae;
+	border: 2px solid #aeaeae;
 	border-radius: 4px;
 	padding: 0%;
 	color: white;
 	font-family: Open Sans;
 	font-size: 18px; 
 }
+
+.row {
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+.header {
+	height:40px;
+	text-align: center;
+	padding: 7px
+
+}
+
+.firstrowheader {
+	background-color: #748aa1;
+	margin-top: -.5px;
+}
+
+/*NavBar*/
 
 .navbar-text {
 	
@@ -24,18 +37,20 @@
 	margin-top: 10px;
 }
 
+/*Logo*/
+
 #logo {
-	width:70px;
+	width: 13%;
 	max-width: 100%;
   	height: auto;
-  	margin-left: 60px;
-  	padding-top: 10px;
+  	margin-left: 10%;
+  	margin-top: 2.1%;
 }
 
 #logoText {
-	width: 250px;
-	margin-left: 30px;
-	padding-top: 10px;
+	width: 55%;
+	margin-left: 6%;
+	margin-top: 3%;
 }
 
 #brand {
@@ -43,58 +58,109 @@
 	height: 80px;
 }
 
+/*Particle Viewer*/
+
 #images {
 	background-color: #f9fafb;
 	height: 320px;
+	border-color: #748aa1;
 
 
 }
 
-.row {
-	margin-left: 30px;
-	margin-right: 30px;
-
-}
+/*Control Center*/
 
 #controlCenter {
 	height: 230px;
 	background-color: #f9fafb;
+	border-color: #748aa1;
+}
 
+#runButton {
+	width: 75%;
+	background-color: #636363;
+	margin-left: 12%;
+	height: 20%;
+	margin-top: 5%;
+}
+
+.controlCenterButton {
+	text-align: center;
+	color: white;
+	border-radius: 15px;
+	border: none;
+}
+
+#preferenceButton {
+	margin-left: 12%;
 
 }
+
+#chooseFolderButton {
+	
+}
+
+.smallButton {
+	width: 37%;
+	font-size: 15px;
+	color:black;
+	margin-top: 5%;
+	height: 30px;
+	background-color: #c0c5d0
+
+}
+
+/*Particle Size Distribution*/
 
 #graph {
 	height: 400px;
 	max-width: 100%;
 }
 
+/*Classification*/
+
 #classification {
+	
+	border-color: #f47c78; 
+	background-color: #fffafa;
 	height: 400px;
 }
 
-#rawdata {
+#classificationHeader {
+	background-color: #f47c78;
+}
+
+/*Raw Data*/
+
+#rawData {
 	max-width: 100%;
 	height: 400px;
+	background-color: #fbfbfb;
+	border-color: #aeaeae; 
 }
 
-.firstrowheader {
-	background-color: #748aa1;
+#rawDataHeader {
+	background-color: #aeaeae;
+	margin-top: -.1%;
 }
 
-.header {
-	height:40px;
-	text-align: center;
-	padding: 7px
+/*Particle Size Distribution*/
 
+#graph {
+	background-color: #f5fcfa;
+	border-color: #14b586;
 }
 
-#runButton {
-	width: 75%;
-	background-color: #748aa1;
+#graphHeader {
+	background-color: #14b586;
 }
 
-.controlCenterButton {
-	text-align: center;
-	color: white;
-	border-radius: 12px;
-}
+
+
+
+
+
+
+
+
+
