@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="script.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="plotly-latest.min.js"></script>
 	<title>Dashboard</title>
 </head>
 <body>
@@ -94,6 +96,15 @@
   	 <div id = "classification" class="container">
 
 		<p id="classificationHeader" class="header">Classification</p>
+		<div id="pieChart">
+			<script style="width:100%; height: 100%" >
+				createDonut();
+			</script>
+
+
+		</div>
+
+		</div>
 
 	</div>
   </div>
@@ -109,11 +120,6 @@
 
 			<p id="rawDataHeader" class="header">Raw Data</p>
 
-
-	</div>
-
-
-</div>
 
 
 
