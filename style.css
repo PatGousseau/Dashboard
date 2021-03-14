@@ -130,6 +130,12 @@
 	background-color: #f47c78;
 }
 
+#pieChart {
+	margin-top: -4.1%;
+	
+
+}
+
 /*Raw Data*/
 
 #rawData {
@@ -156,10 +162,10 @@
 }
 
 
-#pieChart {
-	margin-top: -50%;
-	margin-left: 18%;
+#barGraph {
+	margin-top: -1.3%;
 }
+
 
 
 
