@@ -150,6 +150,10 @@
 	margin-top: -.1%;
 }
 
+#table {
+	margin-top: -1%;
+}
+
 /*Particle Size Distribution*/
 
 #graph {
@@ -165,6 +169,7 @@
 #barGraph {
 	margin-top: -1.3%;
 }
+
 
 
 
