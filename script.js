@@ -17,7 +17,7 @@ function createBarGraph() {
 	  yaxis: {title: 'Particle Count'},
 	  xaxis: {title: 'Size (μm)'},
 	  autosize: true,
-
+		height:400,
 	  annotations: [
 	    {
 	      font: {
@@ -28,8 +28,7 @@ function createBarGraph() {
 	      x: 0.2,
 	      y: 0.5
 	    }],
-	  height: 356,
-	  width: 1215,
+
 	    margin: {
 		    l: 60,
 		    r: 20,
@@ -83,7 +82,7 @@ function createDonut() {
 				      y: 0.5
 				    }],
 				  height: 356,
-				  width: 382,
+				  
 				    margin: {
 					    l: 20,
 					    r: 20,
@@ -101,13 +100,6 @@ function createDonut() {
 				var config = {responsive: true}
 				Plotly.newPlot('pieChart', data, layout, config);
 }
-
-window.onresize = function() {
-    Plotly.relayout('pieChart', {
-        'xaxis.autorange': true,
-        'yaxis.autorange': true
-    });
-};
 
 function createTable() {
 	var values = [
@@ -142,7 +134,7 @@ var data = [{
 				var layout = {
 				  title: '',
 				  autosize: true,
-
+				  height:356,
 				  annotations: [
 				    {
 				      font: {
@@ -154,8 +146,7 @@ var data = [{
 				      x: 0.2,
 				      y: 0.5
 				    }],
-				  height: 355,
-				  width: 1630,
+
 				    margin: {
 					    l: 0,
 					    r: 0,
@@ -171,5 +162,10 @@ var data = [{
 				 
 				};
 
-Plotly.newPlot('table', data, layout);
+var config = {responsive: true};
+Plotly.newPlot('table', data, layout,config);
+
+
+
+
 }
