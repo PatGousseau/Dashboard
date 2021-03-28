@@ -6,7 +6,7 @@ function createBarGraph() {
     y: [50,30,60,10,14,16,70,60,40,30,69,53,40,4,7,1,81,3,43,76,44],
 	  domain: {column: 0},
 	  name: 'Micro Plastics',
-	  hoverinfo: 'label+percent+name',
+	  
 	  type: 'bar',
 	  marker: {color: 'rgb(149,191,179)'}
 	}];
@@ -17,7 +17,7 @@ function createBarGraph() {
 	  yaxis: {title: 'Particle Count'},
 	  xaxis: {title: 'Size (μm)'},
 	  autosize: true,
-		height:400,
+		height:355,
 	  annotations: [
 	    {
 	      font: {
@@ -36,7 +36,7 @@ function createBarGraph() {
 		    t: 50,
 		    
 		  },
-	  showlegend: true,
+	  showlegend: false,
 	  legend: {"orientation": "h"},
 	    paper_bgcolor: 'rgba(0,0,0,0)',
 			plot_bgcolor: 'rgba(0,0,0,0)',

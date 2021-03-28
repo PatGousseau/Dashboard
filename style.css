@@ -42,15 +42,17 @@
 #logo {
 	width: 13%;
 	max-width: 100%;
-  	height: auto;
+  	height: 100%;
   	margin-left: 10%;
-  	margin-top: 2.1%;
+  	margin-top: 0%;
+  	margin-bottom: 3%;
 }
 
 #logoText {
 	width: 55%;
 	margin-left: 6%;
-	margin-top: 3%;
+	margin-top: 0%;
+	margin-bottom: 3%;
 }
 
 #brand {
@@ -82,6 +84,15 @@
 	margin-left: 12%;
 	height: 20%;
 	margin-top: 5%;
+	outline:none;
+}
+
+#runButton:active {
+	box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+#runButton:hover {
+  background-color: #4f4e4e;
 }
 
 .controlCenterButton {
@@ -91,13 +102,23 @@
 	border: none;
 }
 
+
+
 #preferenceButton {
 	margin-left: 12%;
+	outline:none;
 
 }
 
+#preferenceButton:active {
+	box-shadow: inset 0px 0px 5px #FFFF;
+}
 #chooseFolderButton {
-	
+	outline:none;
+}
+
+#chooseFolderButton:active {
+	box-shadow: inset 0px 0px 5px #FFFF;
 }
 
 .smallButton {
@@ -107,6 +128,15 @@
 	margin-top: 5%;
 	height: 30px;
 	background-color: #c0c5d0
+	
+}
+
+.smallButton:hover {
+	background-color: #b4b8c2;
+}
+
+.smallButton:active {
+	
 
 }
 
